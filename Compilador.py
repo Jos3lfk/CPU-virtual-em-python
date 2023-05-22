@@ -1280,6 +1280,3 @@ for i in range(len(asbly)):
     if asbly[i] == 'pop':
         with open('C:\\CPU Rita e Tomas\\binario.txt', 'a') as bin:
             bin.write('0000101\n')
-
-with open('C:\\CPU Rita e Tomas\\binario.txt', 'r') as bin:
-    print(bin.read())
